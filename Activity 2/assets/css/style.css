@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster+Two&family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: 'Poppins', sans-serif;
+     margin: 15px;
+}
+
+h1 {
+     color: rgb(20, 43, 173);
+     text-align: center;
+}
+
+.contact__container,
+.login__container,
+.surver__container {
+     padding: 15px;
+     border: 2px solid rgb(20, 43, 173);
+     border-radius: 3px;
+     margin: 10px;
+}
+
+label {
+     display: block;
+     margin-bottom: 5px;
+}
+
+.name,
+.username,
+.email,
+.password,
+.age,
+textarea {
+     width: 100%;
+     padding: 10px;
+}
+
+.submit {
+     width: 150px;
+     padding: 10px;
+     background: transparent;
+     border: 1px solid rgb(20, 43, 173);
+     border-radius: 4px;
+}
+
+.submit:hover {
+     background-color: rgb(20, 43, 173);
+     transition: 0.4s;
+     color: #ffffff;
+}
+
+.gender,
+.checkbox,
+.message {
+     margin-top: 30px;
+}
+
+.pl,
+.gendeR {
+     margin-left: 15px;
+}
+
+
+
+
+
