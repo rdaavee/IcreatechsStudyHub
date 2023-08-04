@@ -1,71 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster+Two&family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400&display=swap');
 
 * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-     font-family: 'Poppins', sans-serif;
-     margin: 15px;
+    background: #00000035;
+}
+
+.form {
+    color: #ffffff;
+    border-width: 1px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    background: linear-gradient(200deg, #FEBBCC, #916DB3, #FEBBCC);
+    box-shadow: 0 0 10px #000000;
 }
 
 h1 {
-     color: rgb(20, 43, 173);
-     text-align: center;
+    color: #ffffff;
+    font-weight: 200;
 }
 
-.contact__container,
-.login__container,
-.surver__container {
-     padding: 15px;
-     border: 2px solid rgb(20, 43, 173);
-     border-radius: 3px;
-     margin: 10px;
+.survey__form {
+    width: 100%;
+    line-height: 1.9;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-label {
-     display: block;
-     margin-bottom: 5px;
+.survey__comment {
+    min-height: 120px;
 }
 
-.name,
-.username,
-.email,
-.password,
-.age,
+.gap {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+input[type="text"]:hover,
+input[type="number"]:hover {
+    border: 1px solid #916DB3;
+    box-shadow: 0 0 5px #5d3f79;
+}
+
+.which,
+.gender {
+    font-weight: 700;
+}
+
+.input__name,
+.input__email,
+.input__user,
+.input__pass, 
 textarea {
-     width: 100%;
-     padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    height: 30px;
 }
 
-.submit {
-     width: 150px;
-     padding: 10px;
-     background: transparent;
-     border: 1px solid rgb(20, 43, 173);
-     border-radius: 4px;
+.input__name:hover,
+.input__email:hover,
+.input__user:hover,
+.input__pass:hover, 
+textarea:hover {
+    border: 1px solid #916DB3;
+    box-shadow: 0 0 5px #5d3f79;
 }
 
-.submit:hover {
-     background-color: rgb(20, 43, 173);
-     transition: 0.4s;
-     color: #ffffff;
+textarea {
+    min-height: 125px;
 }
 
-.gender,
-.checkbox,
-.message {
-     margin-top: 30px;
+.buttons {
+    border: 1px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 9px;
+    width: 100%;
+    background: #ffffff69;
 }
 
-.pl,
-.gendeR {
-     margin-left: 15px;
+.buttons:hover {
+    background: linear-gradient(to right, #FEBBCC, #916DB3, #FEBBCC);
+    transition: 0.3s;
+    color: #ffffff;
 }
-
-
-
-
-

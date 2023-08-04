@@ -1,95 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Forms Assignment</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-  </head>
-  <body>
-    <!-- CONTACT US FORM -->
-    <form action="#" class="contact__container" method="POST">
-      <h1>Contact Us</h1>
-      <!-- for name -->
-      <label for="text"
-        >Name:
-        <input type="text" class="name"/>
-      </label>
-
-      <!-- for email -->
-      <label for="email"
-        >Email:
-        <input type="email" class="email"/>
-      </label>
-
-      <!-- for message -->
-      <label for="text"
-        >Message:
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-      </label>
-
-      <!-- submit button for message -->
-      <input type="submit" class="submit" value="Submit" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="/Activity 2/assets/css/style.css">
+</head>
+<body>
+    <div class="form">
+    <h1> Contact Us </h1>
+    <form action="#" method="POST">
+        <label>Name <br>
+            <input class="input__name" type="text"><br>
+        </label>
+        <label>Email <br>
+            <input class="input__email" type="email"><br>
+        </label>
+        <label>Message <br>
+            <textarea > </textarea><br>
+        </label>
+        <input class="buttons" type="submit">
     </form>
-
-    <!-- LOGIN FORM -->
-    <form action="#" class="login__container" method="POST">
-      <h1>Login</h1>
-
-      <!-- for username -->
-      <label for="text"
-        >Username:
-        <input type="text" class="username"/>
-      </label>
-
-      <!-- for password -->
-      <label for="password"
-        >Password:
-        <input type="password" class="password"/>
-      </label>
-
-      <!-- login button -->
-      <input type="submit" class="submit" value="Login" />
+    </div>
+    <div class="form">
+    <h1>Log in</h1>
+    <form action="#" method="POST">
+        <label>Username <br>
+            <input class="input__user" type="text"><br>
+        </label>
+        <label>Password <br>
+            <input class="input__pass" type="password"><br>
+        </label>
+        <input class="buttons" type="submit" value="Log in">   
     </form>
-
-    <!-- SURVEY FORM -->
-    <form action="#" class="surver__container" method="POST">
-      <h1>Survey</h1>
-
-      <!-- for name -->
-      <label for="text"
-        >Name:
-        <input type="text" class="name"/>
-      </label>
-
-      <!-- for age -->
-      <label for="age"
-        >Age:
-        <input type="number" class="age"/>
-      </label>
-
-      <!-- for gender -->
-      <label for="gender" class="gender"
-        ><b>Gender:</b>
-      </label>
-        <input type="radio" name="gender" value="male" class="gendeR"/> Male <br>
-        <input type="radio" name="gender" value="female" class="gendeR"/> Female <br>
-        <input type="radio" name="gender" value="other" class="gendeR"/> Other <br>
-
-      <!-- for checkbox -->
-      <label for="programminglanguages" class="checkbox">
-        <b>Which programming languages do you know?</b>
-      </label>
-        <input type="checkbox" class="pl"> HTML <br>
-        <input type="checkbox" class="pl"> CSS <br>
-        <input type="checkbox" class="pl"> JavaScript <br>
-        <input type="checkbox" class="pl"> Python <br>
-      
-      <label for="text" class="message"
-        ><b>Message: </b>
-      </label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="submit" class="submit" value="Submit" />
+    </div>
+    <div class="form">
+    <h1>Survey</h1>
+    <form action="#" method="POST">
+        <div class="survey__formm">
+        <label>Name <br>
+            <input type="text"><br>
+        </label>
+        <label>Age <br>
+            <input type="number"><br>
+        </label>
+        <div class="gap"></div>
+        <label class="gender">Gender </label><br>
+            <input type="radio"> Male<br>
+            <input type="radio"> Female<br>
+        </div>
+        <div class="survey__form">
+        <label class="which">Which among the programming language do you know?</label> <br>
+            <input type="checkbox">Python<br>
+            <input type="checkbox">Java<br>
+            <input type="checkbox">JavaScript<br>
+            <input type="checkbox">PHP<br>
+            <input type="checkbox">Kotlin<br>
+        </div>
+        <div class="survey__comment">
+        <label>Comments <br>
+            <textarea > </textarea>
+        </label>
+        <input class="buttons" type="submit">
+            </div>
     </form>
-  </body>
+    </div>
+</body>
 </html>
