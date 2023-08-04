@@ -1,4 +1,4 @@
-# IcreatechsStudyHub
+# Icreatechs Study Hub ( my works and projects )
 # ACTIVITY 1
 
 ...
