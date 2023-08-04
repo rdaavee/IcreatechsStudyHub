@@ -12,9 +12,10 @@ table,
 th,
 td {
 	width: auto;
-	border: 1px solid #8e9aaf;
+	border: 1px solid #000000;
 	color: #282828;
 	border-collapse: collapse;
+	border-radius: 5px;
 	padding: 10px;
     text-align: center;
 }
